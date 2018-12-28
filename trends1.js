@@ -117,7 +117,7 @@ img.onmouseout = function(){
 img.onmousemove = function(ev){
 	var ev = ev||window.event;
 	var left = ev.clientX -boxx.offsetLeft - slider1.offsetWidth/2 -20;
-	var top = ev.clientY - boxx.offsetTop - slider1.offsetHeight/2 -20 + document.documentElement.scrollTop;
+	var top = ev.clientY - boxx.offsetTop - slider1.offsetHeight/2 -20 + document.documentElement.scrollTop -130;
 	var maxleft = img.offsetWidth - slider1.offsetWidth;
 	var maxtop = img.offsetHeight - slider1.offsetHeight;
 
